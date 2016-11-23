@@ -1,0 +1,11 @@
+{
+  "Name": "zlux.us (URL shortener)",
+  "RequestType": "POST",
+  "RequestURL": "http://zlux.us/api.php",
+  "Arguments": {
+    "newURL": "$input$",
+    "key": "[API KEY, Obtain from dev.zlux.us]"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:response$"
+}
